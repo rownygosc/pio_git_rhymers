@@ -22,7 +22,7 @@ class RhymersDemo {
             rhymers[3].countIn(rn.nextInt(20));
         
         for (int i = 0; i < rhymers.length; i++) {
-            while (!rhymers[i].callCheck())
+            while (!rhymers[i].isEmpty())
                 System.out.print(rhymers[i].countOut() + "  ");
             System.out.println();
         }
