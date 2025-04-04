@@ -19,6 +19,10 @@ public class DefaultCountingOutRhymer {
      * Zmienna przechowująca indeks ostatniego elementu na stosie.
      * -1 oznacza pusty stos.
      */
+    public int getTotal() {
+        return total;
+    }
+
     private int total = -1;
 
     /**
@@ -64,6 +68,7 @@ public class DefaultCountingOutRhymer {
      *
      * @return true jeśli stos jest pełny, false jeśli nie jest
      */
+
     protected boolean isFull() {
         return total == 11;
     }
