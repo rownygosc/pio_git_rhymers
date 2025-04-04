@@ -10,11 +10,11 @@ public class DefaultCountingOutRhymer {
             numbers[++total] = in;
     }
 
-    public boolean callCheck() {
+    protected boolean callCheck() {
         return total == -1;
     }
 
-    public boolean isFull() {
+    protected boolean isFull() {
         return total == 11;
     }
 
